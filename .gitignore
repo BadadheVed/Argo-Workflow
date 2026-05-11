@@ -1,0 +1,73 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual Environments
+venv/
+.env/
+.venv/
+images/
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints/
+
+# Jupyter runtime files
+*.nbconvert.ipynb
+
+# =========================
+# macOS
+# =========================
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# macOS thumbnails
+._*
+
+# Spotlight files
+.Spotlight-V100
+.Trashes
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Environment Variables
+# =========================
+.env
+
+# =========================
+# Build / Distribution
+# =========================
+build/
+dist/
+*.egg-info/
+
+# =========================
+# Temporary Files
+# =========================
+tmp/
+temp/
+*.tmp
+
+# =========================
+# Data / Outputs (Optional)
+# =========================
+# Uncomment if needed
+
+# data/
+# outputs/
+# results/
