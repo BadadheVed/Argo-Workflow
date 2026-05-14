@@ -55,6 +55,9 @@ images/
 build/
 dist/
 *.egg-info/
+bin/
+coverage.out
+*.test
 
 # =========================
 # Temporary Files
@@ -71,3 +74,18 @@ temp/
 # data/
 # outputs/
 # results/
+
+# =========================
+# Helm / Kubernetes YAML
+# =========================
+# Keep chart and manifest YAML files in git by default.
+# Ignore only local override and secret YAML variants.
+values.local.yaml
+values.local.yml
+*.local.yaml
+*.local.yml
+*.secret.yaml
+*.secret.yml
+secrets.yaml
+secrets.yml
+helm*
